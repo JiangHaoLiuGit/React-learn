@@ -1,0 +1,22 @@
+.father{
+    padding-top: 10px;
+}
+.classSpan{
+    border: 1px solid #ccc;
+    padding: 10px;
+    cursor:pointer;
+    margin-right: 10px;
+    color: #0a6aff;
+}
+.classSpan.disable{
+    color: #ccc;
+    cursor: not-allowed;
+}
+.classSpan.active{
+    border: none;
+    cursor: auto;
+    color: #f40;
+}
+.lastText{
+    padding-top: 12px;
+}

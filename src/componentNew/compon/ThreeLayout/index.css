@@ -1,0 +1,23 @@
+.box{
+    display: flex;
+    height: 300px;
+    &>div{
+        border:2px solid #000
+    }
+    .main{
+        flex:1 1 auto;
+        border-color: aqua;
+        order:2;
+    }
+    .aside-left{
+        order:1;
+        border-color: blue;
+    }
+    .aside-right{
+        order:3;
+        border-color: red;
+    }
+}
+/* order 是flex布局中可以安排排列顺序的css属性,无视元素排列顺序的css属性
+    flex:1 1 outo; 代表可以增长 可以绳索 宽度自适应
+*/
