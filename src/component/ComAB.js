@@ -5,7 +5,7 @@ export class A extends React.Component {
     render() {
         return (
             <>
-                <h1>我是{this.props.text}</h1>
+                <h1 ref={this.props.ref1}>我是{this.props.text}</h1>
             </>
         )
     }
